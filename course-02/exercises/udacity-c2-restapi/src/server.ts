@@ -2,7 +2,7 @@ import express from 'express';
 import { sequelize } from './sequelize';
 
 import { IndexRouter } from './controllers/v0/index.router';
-
+require('dotenv').config();
 import bodyParser from 'body-parser';
 
 import { V0MODELS } from './controllers/v0/model.index';
