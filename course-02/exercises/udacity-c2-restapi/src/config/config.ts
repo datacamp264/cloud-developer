@@ -7,7 +7,8 @@ export const config = {
     "dialect": process.env.POSTGRES_DIALECT,
     "aws_region":process.env.AWS_REGION,
     "aws_profile": process.env.AWS_PROFILE,
-    "aws_media_bucket": process.env.AWS_MEDIA_BUCKET
+    "aws_media_bucket": process.env.AWS_MEDIA_BUCKET,
+    "JWT_TOKEN": process.env.JWT_TOKEN
   },
   "prod": {
     "username": process.env.POSTGRES_USERNAME,
@@ -17,6 +18,7 @@ export const config = {
     "dialect": process.env.POSTGRES_DIALECT,
     "aws_region":process.env.AWS_REGION,
     "aws_profile": process.env.AWS_PROFILE,
-    "aws_media_bucket": process.env.AWS_MEDIA_BUCKET
+    "aws_media_bucket": process.env.AWS_MEDIA_BUCKET,
+    "JWT_TOKEN": process.env.JWT_TOKEN
   }
 }
